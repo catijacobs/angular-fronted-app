@@ -6,6 +6,9 @@ import { environment } from 'src/environments/environment';
 
 @Injectable({providedIn: 'root'})
 export class EmployeeService {
+  subscribe(arg0: { next: (response: Employee[]) => void; error: (error: import("@angular/common/http").HttpErrorResponse) => void; }) {
+    throw new Error('olá');
+  }
   private apiServerUrl = environment.apiBaseUrl;
 
   constructor(private http: HttpClient){}
