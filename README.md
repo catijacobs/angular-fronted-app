@@ -1,4 +1,9 @@
-# Employeemanagerapp
+ANGULAR 13 and SPRING 2.6.3:
+
+FRONTEND: https://github.com/catijacobs/angular-fronted-app
+BACKEND: https://github.com/catijacobs/spring-angular-project
+
+# Employeemanagerapp [this is the frontend]
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
 
