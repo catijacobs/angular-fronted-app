@@ -12,7 +12,7 @@ import { NgForm } from '@angular/forms';
 })
 
 export class AppComponent implements OnInit {
-  public employees: Employee[];
+  public employees : Employee[] = [];
   public editEmployee: Employee | undefined;
   public deleteEmployee?: Employee;
   
@@ -71,7 +71,7 @@ export class AppComponent implements OnInit {
   public searchEmployees(key: string): void {
     console.log(key);
     const results: Employee[] = [];
-    for (const employee of this.employees) {
+    for (const employee of this.employees ) {
       if (employee.name.toLowerCase().indexOf(key.toLowerCase()) !== -1
       || employee.email.toLowerCase().indexOf(key.toLowerCase()) !== -1
       || employee.phone.toLowerCase().indexOf(key.toLowerCase()) !== -1
